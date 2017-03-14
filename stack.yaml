@@ -1,0 +1,13 @@
+resolver: lts-8.5
+
+packages:
+- location: '.'
+- location: 'submodules/haskell-opaleye'
+- location: 'submodules/one-liner'
+extra-deps:
+- streaming-postgresql-simple-0.2.0.0
+  # override default flag values for local packages and extra-deps
+flags: {}
+  # extra package databases containing global packages
+extra-package-dbs: []
+allow-newer: true

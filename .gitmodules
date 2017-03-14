@@ -1,0 +1,6 @@
+[submodule "haskell-opaleye"]
+	path = submodules/haskell-opaleye
+	url = https://github.com/duog/haskell-opaleye.git
+[submodule "one-liner"]
+	path = submodules/one-liner
+	url = https://github.com/duog/one-liner.git
